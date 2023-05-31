@@ -1,0 +1,41 @@
+body {
+  background-image: linear-gradient(
+    to bottom,
+    #0e0926,
+    #0f0a29,
+    #100a2c,
+    #100b2e,
+    #110b31,
+    #120c33,
+    #120c35,
+    #130d37,
+    #140e3a,
+    #150e3c,
+    #160f3f,
+    #170f42
+  );
+}
+
+.fondo-resultado {
+  background-color: white !important;
+}
+
+@font-face {
+    font-family: "MiFuentePersonalizada";
+    src: url("DS-DIGIB.TTF") format("truetype");
+  }
+  
+.fuente-cronometro {
+    font-family: "MiFuentePersonalizada", Arial, sans-serif;
+  }
+
+.fuente {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+#treeContainer {
+  height: 100vh;
+  width: 100%;
+}
+
