@@ -59,7 +59,7 @@
 <body>
   <section class="container">
     <article class="row d-flex justify-content-between">
-      <div class="col-3 mt-3 mb-3">
+      <div class="col-6 col-lg-3 mt-3 mb-3">
         <label for="" class="me-2 text-white mb-2 fuente ">Tema</label>
         <select class="form-select bg-warning fuente" id="selectTema" aria-label="Default select example">
           <option selected>Por defecto</option>
@@ -69,8 +69,8 @@
           <option value="midnight">midnight</option>
         </select>
       </div>
-      <div class="col-4 border border-danger mt-3 mb-3 d-flex justify-content-center align-items-center">
-        <h3 class="me-5 text-white fuente">Tiempo de uso:</h3>
+      <div class="col-6 col-lg-4 border border-danger mt-3 mb-3 d-flex justify-content-center align-items-center">
+        <h3 class="me-lg-5 text-white fuente display-sm-6">Tiempo de uso:</h3>
         <h3 id="cronometro" class="fuente-cronometro text-danger me-2">
           00:00:00
         </h3>
@@ -80,24 +80,24 @@
 
   <section class="container">
     <article class="row">
-      <div class="col-6 mt-3">
+      <div class="col-12 col-lg-6 mt-3">
         <textarea id="editor"></textarea>
       </div>
-      <div class="col-6 mt-3 border bg-white" style="height: 300px; overflow-y: auto;">
+      <div class="col-12 col-lg-6 mt-3 border bg-white" style="height: 300px; overflow-y: auto;">
         <div id="resultado" class="overflow-auto"></div>
       </div>
     </article>
   </section>
 
   <section class="container d-flex justify-content-center">
-    <article class="row ">
-      <div class="col-12 mt-3 mb-3">
-        <label for="" class="fuente text-white me-5">Subir archivo:</label>
-        <input type="file" name="carga" id="fileInput" class="fuente text-white">
-        <button id="exportButton" class="fuente ms-5 btn btn-success">Exportar</button>
-        <button id="clearButton" class="fuente ms-5 btn btn-warning">Limpiar editor</button>
-        <button onclick="reloadPage()" class="fuente ms-5 btn btn-danger">Recargar Editor</button>
-        <button onclick="generateTree()" class="fuente ms-5 btn btn-info text-white" id="btnImprimir">Imprimir</button>
+    <article class="row">
+      <div class="col-12 col-lg-12 mt-lg-3 mb-lg-3 mt-5 mb-5 p-3 p-lg-0">
+        <label for="" class="fuente text-white ms-4 ms-lg-5">Subir archivo:</label>
+        <input type="file" name="carga" id="fileInput" class="fuente text-white ms-4  ms-lg-0">
+        <button id="exportButton" class="fuente m-5 ms-lg-5 btn btn-success">Exportar</button>
+        <button id="clearButton" class="fuente ms-lg-4 btn btn-warning">Limpiar editor</button>
+        <button onclick="reloadPage()" class="fuente ms-5 ms-lg-5 btn btn-danger">Recargar Editor</button>
+        <button onclick="generateTree()" class="fuente ms-5 ms-lg-5 btn btn-info text-white" id="btnImprimir">Imprimir</button>
       </div>
     </article>
     </article>
@@ -105,7 +105,7 @@
 
   <section class="container">
     <article class="row">
-      <div class="col-12 border border-white bg-white">
+      <div class="col-12 col-lg-12 border border-white bg-white">
         <div id="treeContainer" class="vh-100 mb-5"></div>
       </div>
   </section>
