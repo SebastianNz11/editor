@@ -202,11 +202,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
 //Limpiar
 let textarea = document.getElementById('editor');
-
-// Obtén una referencia al botón de limpiar
 let clearButton = document.getElementById('clearButton');
 
-// Maneja el evento 'click' en el botón de limpiar
 clearButton.addEventListener('click', function () {
   editor.setValue(''); // Establece el contenido del editor como una cadena vacía
 });
